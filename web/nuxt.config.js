@@ -1,4 +1,6 @@
 import colors from 'vuetify/es5/util/colors'
+import dotenv from 'dotenv'
+dotenv.config()
 
 export default {
   mode: 'universal',
@@ -27,8 +29,8 @@ export default {
         href: '/favicon.ico'
       },
       {
-        rel:"stylesheet",
-        href:"https://fonts.googleapis.com/css?family=Material+Icons"
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css?family=Material+Icons"
       }
     ]
   },
