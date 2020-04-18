@@ -2,7 +2,7 @@
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
       <div class="text-center">
-        小崔之家
+        VOID学习平台
       </div>
     </v-flex>
   </v-layout>
