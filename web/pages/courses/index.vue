@@ -3,8 +3,8 @@
     <h3>热门课程</h3>
     <v-row>
       <v-col v-for="item in courses" :key="item._id" md="4">
-        <v-card :to="`/courses/${item._id}`" class="mx-auto" max-width="344">
-          <v-img :src="item.cover" height="200px"></v-img>
+        <v-card :to="`/courses/${item._id}`" class="mx-auto" max-width="300">
+          <v-img :src="item.cover" height="150px"></v-img>
 
           <v-card-title>
             {{ item.name }}
@@ -15,10 +15,10 @@
           </v-card-subtitle>
 
           <v-card-actions>
-            <v-btn text>Share</v-btn>
+            <v-btn text>分享</v-btn>
 
             <v-btn color="purple" text>
-              Explore
+              收藏
             </v-btn>
 
             <v-spacer></v-spacer>

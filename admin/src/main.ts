@@ -4,7 +4,8 @@ import './plugins/element'
 import './plugins/avue'
 import router from './router'
 import axios from 'axios'
-// import EleForm from 'vue-ele-form'
+import echarts from 'echarts'
+
  
 
 
@@ -14,7 +15,7 @@ const http = axios.create({
 })
 Vue.prototype.$http = http
 Vue.prototype.$httpajax = http
-
+Vue.prototype.$echarts = echarts 
 
 new Vue({
   router,

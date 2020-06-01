@@ -20,7 +20,7 @@ import { Vue, Component, Prop } from "vue-property-decorator";
 
 @Component({})
 export default class ResourceList extends Vue {
-  @Prop(String) resource!: string;
+  @Prop() resource!: any;
 
   data = { };
   option = { };
