@@ -1,1 +1,6 @@
+node_modules
+miniprogram_npm
+.DS_Store
 package-lock.json
+__test.js
+yarn.lock
